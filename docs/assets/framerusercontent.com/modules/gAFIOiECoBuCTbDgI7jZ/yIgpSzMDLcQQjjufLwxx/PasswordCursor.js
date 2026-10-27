@@ -1,0 +1,12 @@
+let o;
+var s = (r) => {
+    if (!o) {
+        let e = function(n, t) {
+            return r.createElement("svg", {width: "100%", height: "1.5em", strokeWidth: 1.5, viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg", color: "currentColor", ref: t, ...n}, r.createElement("path", {d: "M21 13V8a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h7", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round"}), r.createElement("path", {clipRule: "evenodd", d: "M20.879 16.917c.494.304.463 1.043-.045 1.101l-2.567.291-1.151 2.312c-.228.459-.933.234-1.05-.334l-1.255-6.116c-.099-.48.333-.782.75-.525l5.318 3.271z", stroke: "currentColor"}), r.createElement("path", {d: "M12 11.01l.01-.011M16 11.01l.01-.011M8 11.01l.01-.011", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round"}));
+        };
+        o = r.forwardRef(e);
+    }
+    return o;
+};
+const __FramerMetadata__ = {exports: {default: {type: "reactComponent", slots: [], annotations: {framerContractVersion: "1"}}, __FramerMetadata__: {type: "variable"}}};
+export { __FramerMetadata__, s as default };
